@@ -1,0 +1,15 @@
+Bootstrapping:   0%|          | 0/100 [00:00<?, ?it/s]Bootstrapping:   0%|          | 0/100 [00:55<?, ?it/s]
+Traceback (most recent call last):
+  File "/workspace/src/main.py", line 125, in <module>
+    main()
+  File "/workspace/src/main.py", line 122, in main
+    bootstrap_lingam(100,df)
+  File "/workspace/src/main.py", line 113, in bootstrap_lingam
+    model.bootstrap(_df, n_sampling=n_sampling)
+  File "/root/.pyenv/versions/3.12.7/lib/python3.12/site-packages/lingam/bootstrap.py", line 55, in bootstrap
+    total_effects[i, to, from_] = calculate_total_effect(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.pyenv/versions/3.12.7/lib/python3.12/site-packages/lingam/utils/__init__.py", line 1130, in calculate_total_effect
+    if not is_continuous[node]:
+           ~~~~~~~~~~~~~^^^^^^
+KeyboardInterrupt
